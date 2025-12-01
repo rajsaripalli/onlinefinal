@@ -1,0 +1,16 @@
+file:///usr/lib/nodejs18/lib/node_modules/serve/build/main.js:377
+      throw new Error(
+            ^
+
+Error: Unknown --listen endpoint scheme (protocol): 0.0.0.0:
+    at parseEndpoint (file:///usr/lib/nodejs18/lib/node_modules/serve/build/main.js:377:13)
+    at type (/usr/lib/nodejs18/lib/node_modules/serve/node_modules/arg/index.js:70:15)
+    at arg (/usr/lib/nodejs18/lib/node_modules/serve/node_modules/arg/index.js:170:24)
+    at parseArguments (file:///usr/lib/nodejs18/lib/node_modules/serve/build/main.js:414:28)
+    at file:///usr/lib/nodejs18/lib/node_modules/serve/build/main.js:503:40
+    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:337:24)
+    at async loadESM (node:internal/process/esm_loader:34:7)
+    at async handleMainPromise (node:internal/modules/run_main:106:12)
+
+Node.js v18.20.8
